@@ -9,7 +9,7 @@ Install macros extension
 setting.json
 
 ```
-  "vim.useCtrlKeys": false,
+  "vim.useCtrlKeys": true,
   "vim.handleKeys": {
     "<C-u>": true
   },
@@ -22,10 +22,7 @@ setting.json
   ],
   "editor.lineNumbers": "relative",
   "macros": {
-    "vimInsertMode": [
-      "toggleVim",
-      "extension.vim_escape",
-    ]
+    "vimInsertMode": ["toggleVim", "extension.vim_escape"]
   }
 ```
 
