@@ -23,6 +23,16 @@ setting.json
   "editor.lineNumbers": "relative",
   "macros": {
     "vimInsertMode": ["toggleVim", "extension.vim_escape"]
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
   }
 ```
 
