@@ -6,6 +6,10 @@ Setup to make vscode commands work alongside vim
 
 Install macros extension
 
+### Useful windows commands
+
+![windows commands](windows-commands.png)
+
 setting.json
 
 ```
@@ -23,16 +27,6 @@ setting.json
   "editor.lineNumbers": "relative",
   "macros": {
     "vimInsertMode": ["toggleVim", "extension.vim_escape"]
-  },
-  {
-    "key": "ctrl+k",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+k",
-    "command": "workbench.action.terminal.focus",
-    "when": "!terminalFocus"
   }
 ```
 
@@ -43,6 +37,20 @@ keybindings.json
     "key": "escape",
     "command": "macros.vimInsertMode",
     "when": "editorTextFocus && !vim.active && !inDebugRepl"
+  },
+    {
+    "key": "ctrl+k",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "alt+f2",
+    "command": "workbench.action.quickSwitchWindow"
   }
 ```
 
