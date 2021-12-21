@@ -65,10 +65,13 @@ Flow: [Esc] --> move --> i
 - b : move word by word backwards (start)
 - e : move word by word (end)
 - ge : move word by word backwards (end)
+- gg : go to start of file
+- G : go to end of file
 - ctr + u : move up half screen
 - ctrl + d : move down half screen
 - dd : remove and copy
 - d + n : remove n lines
 - p : paste
-- ctrl + enter : empty line below
 - [all vs-code commands]
+- ctrl + enter : empty line below
+- alt + direction_arrow : switch terminals
