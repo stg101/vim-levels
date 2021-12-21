@@ -6,9 +6,6 @@ Setup to make vscode commands work alongside vim
 
 Install macros extension
 
-### Useful windows commands
-
-![windows commands](windows-commands.png)
 
 setting.json
 
@@ -75,3 +72,15 @@ Flow: [Esc] --> move --> i
 - [all vs-code commands]
 - ctrl + enter : empty line below
 - alt + direction_arrow : switch terminals
+
+### Windows
+
+![windows commands](windows-commands.png)
+
+## Level 2
+
+### tmux
+
+prefix: ctrl + b
+
+![tmux commands](tmux-commands.png)
